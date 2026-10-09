@@ -12,11 +12,9 @@ nav{
     text-align: center;
     position:fixed;
     animation: normal;
-    font-size: clamp(2px, 2vw, 17px);
+    font-size: 17px;
     position: absolute;
-    width: fit-content;
-    max-width: 100%;
-    min-width: 0px;
+
 }
 
 nav:hover{
@@ -51,4 +49,9 @@ nav:hover{
     top: 8px;
     right: 8px;
     width: 10%;
+}
+
+.appunti{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10pt;
 }
