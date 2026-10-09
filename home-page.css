@@ -1,17 +1,32 @@
 body{
-    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: aliceblue;
 }
 
 nav{
-background-color: aqua;
-padding: 5px;
-border-radius: 5px;
-text-decoration: none;
-text-align: center;
-position:fixed;
-
+    background-color: bisque;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    position:fixed;
+    animation: normal;
 }
 
-.link_navigazione{
+nav:hover{
+    cursor:pointer;
+}
 
+.sum_nav{
+    margin-bottom: 3px;
+}
+
+.a_nav{
+    text-decoration: none;
+    margin-bottom: 40px;
+}
+
+.a_nav:hover{
+    background-color: rgb(0, 27, 59);
+    color: bisque;
 }
