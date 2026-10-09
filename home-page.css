@@ -5,6 +5,7 @@ body{
 
 nav{
     background-color: bisque;
+    color: black;
     padding: 5px;
     border-radius: 5px;
     text-decoration: none;
@@ -24,6 +25,7 @@ nav:hover{
 .a_nav{
     text-decoration: none;
     margin-bottom: 40px;
+    color: rgb(35, 78, 128);
 }
 
 .a_nav:hover{
