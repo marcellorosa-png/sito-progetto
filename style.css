@@ -12,7 +12,11 @@ nav{
     text-align: center;
     position:fixed;
     animation: normal;
-    font-size: 17px;
+    font-size: clamp(2px, 2vw, 17px);
+    position: absolute;
+    width: fit-content;
+    max-width: 100%;
+    min-width: 0px;
 }
 
 nav:hover{
@@ -34,8 +38,17 @@ nav:hover{
     color: bisque;
 }
 
-.Logo{
+.Logo_home{
     border: 5px solid rgb(0, 27, 59);
     border-radius: 10px;
     margin-left: calc( 50% - 155px) ;
+}
+
+.Logo{
+    border: 5px solid rgb(0, 27, 59);
+    border-radius: 10px;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 10%;
 }
