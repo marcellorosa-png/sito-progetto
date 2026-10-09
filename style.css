@@ -51,7 +51,55 @@ nav:hover{
     width: 10%;
 }
 
-.appunti{
+.testi{
+    margin-top: 4%;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.testi:hover{
+    cursor: text;
+}
+
+.appunti{
     font-size: 10pt;
+    margin-top: 2px;
+}
+
+.cornici_testi{
+    width: 100%;
+    margin: 3px;
+}
+
+.cornici_testi:hover{
+    cursor: pointer;
+}
+
+/* Forza il summary a mostrare la freccia */
+.cornici_testi summary {
+  display: list-item; 
+  cursor: pointer;
+}
+
+/* Trasforma l'h2 in testo normale in linea e lo allinea alla freccia */
+.cornici_testi summary h2 {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 0 0 10px; /* Il 10px finale distanzia il titolo dalla freccia */
+}
+
+@import url("node_modules/animate.css/animate.min.css");
+
+.cornici_testi[open]{
+    animation-name: fadeIn;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+    background-color: beige;
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    width: fit-content;
+    max-width: 100%;
+    text-align: center;
+    margin: 0 auto;
 }
