@@ -75,17 +75,16 @@ nav:hover{
     cursor: pointer;
 }
 
-/* Forza il summary a mostrare la freccia */
+
 .cornici_testi summary {
   display: list-item; 
   cursor: pointer;
 }
 
-/* Trasforma l'h2 in testo normale in linea e lo allinea alla freccia */
 .cornici_testi summary h2 {
   display: inline-block;
   vertical-align: middle;
-  margin: 0 0 0 10px; /* Il 10px finale distanzia il titolo dalla freccia */
+  margin: 0 0 0 10px;
 }
 
 @import url("node_modules/animate.css/animate.min.css");
@@ -102,4 +101,9 @@ nav:hover{
     max-width: 100%;
     text-align: center;
     margin: 0 auto;
+}
+
+
+.testi .cornici_testi div{
+    cursor: text;
 }
